@@ -40,7 +40,7 @@ The CLI caps UTF-8 input at 1 MiB and rejects duplicate keys, nonfinite values, 
 
 ## Evidence and limits
 
-11 local tests and 6 CLI contracts pass: order changes, duplicate-item loss, boolean/number distinctions, monotonic direction, empty batches, malformed late cases and rejecting unfinished templates. Hosted checks are pending initial publication.
+11 local tests and 6 CLI contracts pass: order changes, duplicate-item loss, boolean/number distinctions, monotonic direction, empty batches, malformed late cases and rejecting unfinished templates. All four Windows/Linux Python 3.11/3.13 jobs passed on GitHub Actions. [Hosted verification](https://github.com/Ppetip/eval-mutator/actions/runs/36965546938).
 
 Two wrong answers can agree. A passed relation is not answer correctness, independent ground truth or proof the model is robust. `observed` is the caller's declaration, not verified provenance. Tests use only synthetic authored outputs.
 
