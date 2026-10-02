@@ -1,0 +1,11 @@
+{
+  "tasks": [
+    {
+      "id": "order",
+      "input": {
+        "item": "widget",
+        "qty": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "cases": [
+    {
+      "id": "reordered-extraction",
+      "relation": "equal",
+      "before": {
+        "qty": 2,
+        "item": "widget"
+      },
+      "after": {
+        "item": "widget",
+        "qty": 2
+      },
+      "observed": true
+    },
+    {
+      "id": "lost-item",
+      "relation": "unordered",
+      "before": [
+        "a",
+        "a",
+        "b"
+      ],
+      "after": [
+        "a",
+        "b"
+      ],
+      "observed": true
+    },
+    {
+      "id": "added-evidence",
+      "relation": "nondecreasing",
+      "before": 0.4,
+      "after": 0.6,
+      "observed": true
+    }
+  ]
+}
